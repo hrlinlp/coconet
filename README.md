@@ -9,7 +9,7 @@ Learn to Copy from the Copying History: Correlational Copy Network for Abstracti
 
 ## Train
 
-
+```sh
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 
 fairseq-train data-bin \
@@ -43,4 +43,4 @@ fairseq-train data-bin \
     --fp16 --update-freq 4 \
     --skip-invalid-size-inputs-valid-test \
     --find-unused-parameters
-
+```
